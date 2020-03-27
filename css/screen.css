@@ -337,6 +337,14 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+.c-logo{
+    height: 32px;
+}
+
+.c-logo__symbol{
+    height: 100%;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
@@ -599,6 +607,10 @@ a:focus {
     html{
         font-size: 20px;
         line-height: 1.6;
+    }
+    
+    .c-logo{
+        height: 40px;
     }
 }
 
