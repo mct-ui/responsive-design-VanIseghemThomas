@@ -1,6 +1,24 @@
 /*------------------------------------*\
   #FONTS
 \*------------------------------------*/
+@font-face{
+    font-family: "HK Grotesk Web";
+    font-weight: 200;
+    src: url("../fonts/hkgrotesk-light-webfont.woff2"),
+         url("../fonts/hkgrotesk-light-webfont.woff");
+}
+@font-face{
+    font-family: "HK Grotesk Web";
+    font-weight: 400;
+    src: url("../fonts/hkgrotesk-light-webfont.woff2"),
+         url("../fonts/hkgrotesk-light-webfont.woff");
+}
+@font-face{
+    font-family: "HK Grotesk Web";
+    font-weight: 600;
+    src: url("../fonts/hkgrotesk-light-webfont.woff2"),
+         url("../fonts/hkgrotesk-light-webfont.woff");
+}
 
 /*------------------------------------*\
   #GENERIC
@@ -194,7 +212,8 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 90em; /* 90 * 16px = 1440px */
+    max-width: 56.4em;
+
 }
 
 /*
@@ -575,9 +594,14 @@ a:focus {
 @media (min-width: 576px) {}
 */
 
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
-*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    html{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
 
 /* Large devices (landscape tablets, desktops, 992px and up)
 @media (min-width: 992px) {}
