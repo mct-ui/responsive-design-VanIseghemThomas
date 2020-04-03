@@ -197,6 +197,11 @@ a:focus {
     background-color: #F7F7F7;
 }
 
+.o-row--gradient{
+    background-image: linear-gradient(to bottom right, #5051DB, #3887F7);
+    color: white;
+}
+
 @media (min-width: 768px) {
     .o-row {
         padding-left: 48px;
@@ -497,6 +502,21 @@ a:focus {
 
 .c-link-cta--inverse:hover::after{
     background-color: #fff;
+}
+
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+}
+
+.c-footer__logo {
+}
+
+.c-footer__nav {
 }
 
 
@@ -802,10 +822,7 @@ a:focus {
         padding-bottom: 48px;
     }
 
-    .o-row--gradient{
-        background-image: linear-gradient(to bottom right, #5051DB, #3887F7);
-        color: white;
-    }
+    
 
     .c-logo{
         height: 40px;
@@ -843,6 +860,14 @@ a:focus {
         font-size: 52px;
         line-height: 64px;
     }
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__nav {
+    }
 
 }
 
@@ -857,6 +882,17 @@ a:focus {
 
     .c-header__nav{
         display: block;
+    }
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__logo .c-logo {
+    }
+
+    .c-footer__nav {
     }
 }
 
