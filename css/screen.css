@@ -483,6 +483,23 @@ a:focus {
     transform: scaleX(1);
     background-color: #3E3EA8;
 }
+
+/*inversed color*/
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active{
+    color: white;
+}
+
+.c-link-cta--inverse::after{
+    background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::after{
+    background-color: #fff;
+}
+
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
@@ -783,6 +800,11 @@ a:focus {
     .o-row--lg{
         padding-top: 72px;
         padding-bottom: 48px;
+    }
+
+    .o-row--gradient{
+        background-image: linear-gradient(to bottom right, #5051DB, #3887F7);
+        color: white;
     }
 
     .c-logo{
